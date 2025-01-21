@@ -1,0 +1,27 @@
+<!-- scraper/templates/scraper/scraped_content.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Scraped Content</title>
+{% include "scraperapp/head.html" %}
+<body>
+
+<div class="container">
+    <h1>Scraped Content from "{{ url }}"</h1>
+    <div class="content">
+        <h2>Page Title: {{ title }}</h2>
+        <h3>Paragraphs:</h3>
+        {% if paragraphs %}
+            {% for para in paragraphs %}
+                <p>{{ para }}</p>
+            {% endfor %}
+        {% else %}
+            <p>No paragraphs found on this page.</p>
+        {% endif %}
+    </div>
+
+    <a href="/" class="back-link">Back to Home Page</a>
+</div>
+
+</body>
+</html>
