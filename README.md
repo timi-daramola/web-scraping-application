@@ -1,5 +1,5 @@
 # web-scraping-application
-##**Overview**  \
+<h2>**Overview**</h2>  \
 This is a simple web scraping application built with Django. It fetches data from the public webpage Quotes to Scrape and displays it as a list of quotes on a web page.
 
 ##**Features**  \
