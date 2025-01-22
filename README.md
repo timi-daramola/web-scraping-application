@@ -7,8 +7,8 @@ Web scraping using the requests and BeautifulSoup libraries.
 Simple web interface to display scraped data.
 No authentication required.
 
-**Requirements**
-\Python 3.x
+**Requirements**  \
+Python 3.x
 Django 4.x
 BeautifulSoup4
 Requests
