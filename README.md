@@ -1,8 +1,8 @@
 # web-scraping-application
-#Overview
+#**Overview**  \
 This is a simple web scraping application built with Django. It fetches data from the public webpage Quotes to Scrape and displays it as a list of quotes on a web page.
 
-#Features
+#**Features**  \
 Web scraping using the requests and BeautifulSoup libraries.
 Simple web interface to display scraped data.
 No authentication required.
@@ -13,7 +13,7 @@ Django 4.x
 BeautifulSoup4
 Requests
 
-#Installation
+#**Installation**  \
 1. Install Python dependencies
 2. Create the Django project
 3. Configure the app
