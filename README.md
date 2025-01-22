@@ -1,10 +1,10 @@
 # web-scraping-application
 <h2>Overview</h2>  
-This is a simple web scraping application built with Django. It fetches data from the public webpage Quotes to Scrape and displays it as a list of quotes on a web page.
+This is a simple web scraping application built with Django. It fetches data from the public webpages to Scrape and displays the data on a web page.
 
 <h2>Features</h2>  
 Web scraping using the requests and BeautifulSoup libraries.
-Simple web interface to display scraped data.
+Simple web interface to display scraped data. This web scraping app can scrap data from different kinds of websites.
 No authentication required.
 
 <h2>Requirements</h2>  
