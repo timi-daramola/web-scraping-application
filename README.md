@@ -8,7 +8,7 @@ Simple web interface to display scraped data.
 No authentication required.
 
 **Requirements**
-Python 3.x
+\Python 3.x
 Django 4.x
 BeautifulSoup4
 Requests
